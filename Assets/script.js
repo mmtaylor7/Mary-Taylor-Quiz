@@ -95,7 +95,3 @@ let questionData = [
 
 ]
 
-var correctAnswersArray = [
-    "1914",
-    "Springfi
-
