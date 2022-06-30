@@ -10,16 +10,17 @@
 <body>
     <div class="big-container">
             <div class="quiz-container">
+                <h3 class="timer">ddede</h3>
                 <div class="start-button" id="start" onclick="disappearStart()">
                     Click to Start Quiz!
                 </div>
                 <div class="question-answer-storage" id="question-answer-box">
                     <div class="question" id="question"></div>
                     <div class="answers-container">
-                        <div class="answers" onclick="counter()"></div>
-                        <div class="answers" onclick="counter()"></div>
-                        <div class="answers" onclick="counter()"></div>
-                        <div class="answers" onclick="counter()"></div>
+                        <div class="answers" id="answer-1" onclick="questionGenerator()"></div>
+                        <div class="answers" id="answer-2" onclick="questionGenerator()"></div>
+                        <div class="answers" id="answer-3" onclick="questionGenerator()"></div>
+                        <div class="answers" id="answer-4" onclick="questionGenerator()"></div>
                     </div>
                 </div>
                 

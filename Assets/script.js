@@ -1,21 +1,32 @@
-var countClicks = 0;
+var questionNumber = 0;
 var answers = document.getElementById("answers")
+var timeLeft = 60
 
-function counter(clicks) {
-    countClicks += 1;
-    console.log(countClicks)
+function counter() {
+    questionNumber += 1;
+    console.log(questionNumber)
 }
 
 function disappearStart () {
     document.getElementById("start").style.display="none";
     document.getElementById('question-answer-box').style.display = "block";
-    displayQuestionsAnswers();
+    displayQuestion();
 }
 
-function displayQuestions() {
-    document.getElementById('question').textContent = questionsData[0].question; 
+function displayQuestion() {
+    document.getElementById('question').textContent = questionData[questionNumber].question; 
+
+    document.getElementById('answer-1').textContent = questionData[questionNumber].answers[0].text; 
+    document.getElementById('answer-2').textContent = questionData[questionNumber].answers[1].text; 
+    document.getElementById('answer-3').textContent = questionData[questionNumber].answers[2].text; 
+    document.getElementById('answer-4').textContent = questionData[questionNumber].answers[3].text; 
 }
 
+function questionGenerator() {
+    counter();
+    displayQuestion();
+    
+}
 
 let questionData = [
 
