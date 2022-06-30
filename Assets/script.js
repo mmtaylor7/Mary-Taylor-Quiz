@@ -12,15 +12,13 @@ function disappearStart () {
     displayQuestionsAnswers();
 }
 
-function displayQuestionsAnswers() {
-    document.getElementById('question').textContent = questionsArray[0]; 
+function displayQuestions() {
+    document.getElementById('question').textContent = questionsData[0].question; 
 }
-
 
 
 let questionData = [
 
-    
     { 
         question: "When did World War 1 begin?",
         answers: [
@@ -90,8 +88,187 @@ let questionData = [
      ]
     },
     
+    { 
+        question: "How many squares are there on a chessboard?",
+        answers: [
+            {
+                text: "64",
+                isCorrect: true
+            },
+            {
+                text: "100",
+                isCorrect: false
+            },
+            {
+                text: "49",
+                isCorrect: false
+            },
+            {
+                text: "81",
+                isCorrect: false
+            },
+            
+     ]
+    },
     
+    {
+    question: "Dover is the capital of which U.S. State?",
+        answers: [
+            {
+                text: "Connecticut",
+                isCorrect: false
+            },
+            {
+                text: "Delaware",
+                isCorrect: true
+            },
+            {
+                text: "Rhode Island",
+                isCorrect: false
+            },
+            {
+                text: "New Jersey",
+                isCorrect: false
+            },
+        ]
+    },
 
+    {    
+    question: "Dover is the capital of which U.S. State?",
+        answers: [
+            {
+                text: "Connecticut",
+                isCorrect: false
+            },
+            {
+                text: "Delaware",
+                isCorrect: true
+            },
+            {
+                text: "Rhode Island",
+                isCorrect: false
+            },
+            {
+                text: "New Jersey",
+                isCorrect: false
+            },
+
+        ]
+    },
+
+    { 
+        question: "What element was discovered by Marie and Pierre Curie?",
+        answers: [
+            {
+                text: "Helium",
+                isCorrect: false
+            },
+            {
+                text: "Manganese",
+                isCorrect: false
+            },
+            {
+                text: "Radium",
+                isCorrect: true
+            },
+            {
+                text: "Bohrium",
+                isCorrect: false
+            },
+            
+     ]
+    },
+
+    { 
+        question: "Who was the first African American to play in the major leagues?",
+        answers: [
+            {
+                text: "Curt Flood",
+                isCorrect: false
+            },
+            {
+                text: "Willie Mays", 
+                isCorrect: false
+            },
+            {
+                text: "Hank Aaron",
+                isCorrect: false
+            },
+            {
+                text:  "Jackie Robinson",
+                isCorrect: true
+            },
+            
+     ]
+    },
+
+    { 
+        question: "What does a funambulist walk on?",
+        answers: [
+            {
+                text: "Water",
+                isCorrect: false
+            },
+            {
+                text: "Hot coals", 
+                isCorrect: false
+            },
+            {
+                text: "A tight rope",
+                isCorrect: true
+            },
+            {
+                text:  "Balance beams",
+                isCorrect: false
+            },
+            
+     ]
+    },
+
+    { 
+        question: "What is the world's most expensive spice by weight?",
+        answers: [
+            {
+                text: "Turmeric",
+                isCorrect: false
+            },
+            {
+                text: "Saffron", 
+                isCorrect: true
+            },
+            {
+                text: "Cinnamon",
+                isCorrect: false
+            },
+            {
+                text:  "Cardamom",
+                isCorrect: false
+            },
+            
+     ]
+    },
+
+    { 
+        question: "What year was Queen Elizabeth II born?",
+        answers: [
+            {
+                text: "1926",
+                isCorrect: true
+            },
+            {
+                text: "1927", 
+                isCorrect: false
+            },
+            {
+                text: "1928",
+                isCorrect: false
+            },
+            {
+                text:  "1929",
+                isCorrect: false
+            },
+            
+     ]
+    },
 
 ]
-
