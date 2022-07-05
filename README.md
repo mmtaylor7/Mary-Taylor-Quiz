@@ -11,12 +11,12 @@ SO THAT I can gauge my knowledge compared to my users.
 ### Screenshot
 ![deployment](./Assets/Screen%20Shot%202022-06-30%20at%2010.34.40%20AM.png)
 
-#### Deployment
-[Mary Margaret Taylor Generator]()
+#### Deployment Link
+[Mary Margaret Taylor Generator](https://mmtaylor7.github.io/Mary-Taylor-Quiz/)
 
-##### GitHub Repository
+##### GitHub Repository Link
 
-[Mary Margaret Taylor Repository]()
+[Mary Margaret Taylor Repository](https://github.com/mmtaylor7/Mary-Taylor-Quiz)
 
 
 
