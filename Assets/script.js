@@ -77,7 +77,7 @@ let questionData = [
     },
  
     { 
-        question: "What holiday is celebrated on the 26th of December?",
+        question: "What holiday is celebrated by some on the 26th of December?",
         answers: [
             {
                 text: "Christmas Eve",
